@@ -1,0 +1,89 @@
+﻿---
+ID: "8524e08b-b0bb-4d9b-9340-ef4cc96e757e"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Advances in Minimally Invasive Orthopedic Surgery"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{54CABACF-F075-4DAB-9113-407825F5CDFF}"
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75812-HomepagePromoCTAs-1100x740?v=831f5bc3" dam-id="QM328wiLRs6D7e4e5yR20w" width="1100" height="740" alt="NCN4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75812/thumbnail" />
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251205T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75812-LandingPageHero-2000x600?v=4d29776e" dam-id="QM328wiLRs6D7e4e5yR20w" width="2000" height="600" alt="NCN4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75812/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{DB30596D-1D25-4EB4-9EB9-5ECC6BEFB12A}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "83b9320d-5143-4335-9d61-5985c3955d1f"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{F2D9B026-E046-4D62-AE89-52E3806CEE47}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: minimally invasive surgery, orthopedic innovation, arthroscopy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T004349Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Minimally Invasive Orthopedics | Nova Health Innovation
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Advances in Minimally Invasive Orthopedic Surgery
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Advances in Minimally Invasive Orthopedic Surgery
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Minimally invasive orthopedic surgery has transformed the way specialists treat joint, bone, and ligament injuries. These procedures use small incisions, precision tools, and advanced imaging to reduce trauma and promote faster healing. Patients often experience less pain and shorter recovery times.</p>
+        <p>Techniques like arthroscopy allow surgeons to treat ligament tears, joint damage, and cartilage injuries with enhanced accuracy. As technology improves, more orthopedic conditions can be treated using minimally invasive approaches, expanding options for patients seeking quicker recovery.</p>
+        <p>Nova Health’s orthopedic team uses cutting-edge surgical methods to support active lifestyles and long-term mobility. Continuous innovation ensures patients receive care aligned with the latest advancements.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Learn how minimally invasive orthopedic procedures reduce recovery time and improve outcomes.
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Explore how minimally invasive techniques treat orthopedic injuries with faster recovery and reduced pain.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b96f468-3673-4e7f-93a7-56723d5ceae6"
+    - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
+      Hint: Specialty
+      Value: Orthopedics
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: This article highlights advancements in minimally invasive orthopedic surgery and explains how these techniques support faster recovery and better outcomes.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251210T021659Z

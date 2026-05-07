@@ -7,6 +7,7 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
+import { jsx, jsxs, Fragment } from 'react/jsx-runtime';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import { useCallback, useRef, useState, useEffect, useMemo } from 'react';
@@ -20,11 +21,32 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
 import nextConfig from 'next.config';
-import { pageView } from '@sitecore-cloudsdk/events/browser';
+import { pageView, event } from '@sitecore-content-sdk/events';
 import config from 'sitecore.config';
 import { useI18n } from 'next-localization';
+import { useSearch } from '@sitecore-content-sdk/nextjs/search';
+import { cn } from 'lib/utils';
+import { SearchEmptyResults } from 'src/components/search-experience/search-components/SearchEmptyResults';
+import { SearchError } from 'src/components/search-experience/search-components/SearchError';
+import { SearchItem } from 'src/components/search-experience/search-components/SearchItem/index';
+import { SearchSkeletonItem } from 'src/components/search-experience/search-components/SearchSkeletonItem';
+import { SearchPagination } from 'src/components/search-experience/search-components/SearchPagination';
+import { SearchInput } from 'src/components/search-experience/search-components/SearchInput';
+import { useEvent } from 'src/components/search-experience/search-components/useEvent';
+import { useSearchField } from 'src/components/search-experience/search-components/useSearchField';
+import { useParams } from 'src/components/search-experience/search-components/useParams';
+import { DICTIONARY_KEYS, gridColsClass, DEFAULT_PAGE_SIZE, DEBOUNCE_TIME } from 'src/components/search-experience/search-components/constants';
+import { useRouter as useRouter_718da64eaca4c1615fa5f1603d6d6260be2e7c90 } from 'src/components/search-experience/search-components/useRouter';
+import { useDebouncedCallback } from 'src/components/search-experience/search-components/useDebounce';
+import { ItemCardFrame, ItemListFrame } from 'src/components/search-experience/search-components/SearchItemCommon';
+import { SearchItemTitle } from 'src/components/search-experience/search-components/SearchItem/SearchItemTitle';
+import { SearchItemSummary } from 'src/components/search-experience/search-components/SearchItem/SearchItemSummary';
+import { SearchItemLink } from 'src/components/search-experience/search-components/SearchItem/SearchItemLink';
+import { SearchItemCategory } from 'src/components/search-experience/search-components/SearchItem/SearchItemCategory';
+import { SearchItemTags } from 'src/components/search-experience/search-components/SearchItem/SearchItemTags';
+import { SearchItemImage } from 'src/components/search-experience/search-components/SearchItem/SearchItemImage';
+import { Presence, ArticleCard, PreviewSearch } from '@sitecore-search/ui';
 import { WidgetDataType, usePreviewSearch, widget, PageController } from '@sitecore-search/react';
-import { ArticleCard, Presence, PreviewSearch } from '@sitecore-search/ui';
 import Spinner from 'src/components/Search/components/Spinner/Spinner';
 import useVisibility from 'src/hooks/useVisibility';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -38,6 +60,14 @@ import { ParallaxBanner, useParallax, Parallax } from 'react-scroll-parallax';
 import { IconAccent } from 'components/NonSitecore/IconAccent';
 
 const importMap = [
+  {
+    module: 'react/jsx-runtime',
+    exports: [
+      { name: 'jsx', value: jsx },
+      { name: 'jsxs', value: jsxs },
+      { name: 'Fragment', value: Fragment },
+    ]
+  },
   {
     module: 'next/head',
     exports: [
@@ -124,9 +154,10 @@ const importMap = [
     ]
   },
   {
-    module: '@sitecore-cloudsdk/events/browser',
+    module: '@sitecore-content-sdk/events',
     exports: [
       { name: 'pageView', value: pageView },
+      { name: 'event', value: event },
     ]
   },
   {
@@ -142,20 +173,150 @@ const importMap = [
     ]
   },
   {
+    module: '@sitecore-content-sdk/nextjs/search',
+    exports: [
+      { name: 'useSearch', value: useSearch },
+    ]
+  },
+  {
+    module: 'lib/utils',
+    exports: [
+      { name: 'cn', value: cn },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/SearchEmptyResults',
+    exports: [
+      { name: 'SearchEmptyResults', value: SearchEmptyResults },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/SearchError',
+    exports: [
+      { name: 'SearchError', value: SearchError },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/SearchItem/index',
+    exports: [
+      { name: 'SearchItem', value: SearchItem },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/SearchSkeletonItem',
+    exports: [
+      { name: 'SearchSkeletonItem', value: SearchSkeletonItem },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/SearchPagination',
+    exports: [
+      { name: 'SearchPagination', value: SearchPagination },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/SearchInput',
+    exports: [
+      { name: 'SearchInput', value: SearchInput },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/useEvent',
+    exports: [
+      { name: 'useEvent', value: useEvent },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/useSearchField',
+    exports: [
+      { name: 'useSearchField', value: useSearchField },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/useParams',
+    exports: [
+      { name: 'useParams', value: useParams },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/constants',
+    exports: [
+      { name: 'DICTIONARY_KEYS', value: DICTIONARY_KEYS },
+      { name: 'gridColsClass', value: gridColsClass },
+      { name: 'DEFAULT_PAGE_SIZE', value: DEFAULT_PAGE_SIZE },
+      { name: 'DEBOUNCE_TIME', value: DEBOUNCE_TIME },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/useRouter',
+    exports: [
+      { name: 'useRouter', value: useRouter_718da64eaca4c1615fa5f1603d6d6260be2e7c90 },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/useDebounce',
+    exports: [
+      { name: 'useDebouncedCallback', value: useDebouncedCallback },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/SearchItemCommon',
+    exports: [
+      { name: 'ItemCardFrame', value: ItemCardFrame },
+      { name: 'ItemListFrame', value: ItemListFrame },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/SearchItem/SearchItemTitle',
+    exports: [
+      { name: 'SearchItemTitle', value: SearchItemTitle },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/SearchItem/SearchItemSummary',
+    exports: [
+      { name: 'SearchItemSummary', value: SearchItemSummary },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/SearchItem/SearchItemLink',
+    exports: [
+      { name: 'SearchItemLink', value: SearchItemLink },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/SearchItem/SearchItemCategory',
+    exports: [
+      { name: 'SearchItemCategory', value: SearchItemCategory },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/SearchItem/SearchItemTags',
+    exports: [
+      { name: 'SearchItemTags', value: SearchItemTags },
+    ]
+  },
+  {
+    module: 'src/components/search-experience/search-components/SearchItem/SearchItemImage',
+    exports: [
+      { name: 'SearchItemImage', value: SearchItemImage },
+    ]
+  },
+  {
+    module: '@sitecore-search/ui',
+    exports: [
+      { name: 'Presence', value: Presence },
+      { name: 'ArticleCard', value: ArticleCard },
+      { name: 'PreviewSearch', value: PreviewSearch },
+    ]
+  },
+  {
     module: '@sitecore-search/react',
     exports: [
       { name: 'WidgetDataType', value: WidgetDataType },
       { name: 'usePreviewSearch', value: usePreviewSearch },
       { name: 'widget', value: widget },
       { name: 'PageController', value: PageController },
-    ]
-  },
-  {
-    module: '@sitecore-search/ui',
-    exports: [
-      { name: 'ArticleCard', value: ArticleCard },
-      { name: 'Presence', value: Presence },
-      { name: 'PreviewSearch', value: PreviewSearch },
     ]
   },
   {

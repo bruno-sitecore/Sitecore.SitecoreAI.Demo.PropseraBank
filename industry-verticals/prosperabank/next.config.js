@@ -1,5 +1,4 @@
 const path = require('path');
-const SassAlias = require('sass-alias');
 
 // const jssConfig = require('./src/temp/config');
 // const plugins = require('./src/temp/next-config-plugins') || {};
@@ -60,6 +59,11 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'starter-*.**',
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: 'prosperabank.dev*',
         port: '',
       },
     ],
@@ -140,14 +144,14 @@ const nextConfig = {
     return config;
   },
 
-    // Add sass settings for SXA themes and styles
+    // Add sass settings for SXA themes and styles (Dart Sass modern API;
+    // legacy sass-alias importer removed — use loadPaths when adding SCSS aliases)
   sassOptions: {
-    importer: new SassAlias({
-      '@globals': path.join(process.cwd(), './src/assets', 'globals'),
-      '@fontawesome': path.join(process.cwd(), './node_modules', 'font-awesome'),
-    }).getImporter(),
-    // temporary measure until new versions of bootstrap and font-awesome released
-    quietDeps: true,    
+    loadPaths: [
+      path.join(process.cwd(), 'node_modules'),
+      path.join(process.cwd(), 'src/assets'),
+    ],
+    quietDeps: true,
     silenceDeprecations: ["import", "legacy-js-api"],
   },
 

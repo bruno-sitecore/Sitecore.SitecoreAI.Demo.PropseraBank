@@ -6,10 +6,11 @@ Path: /sitecore/content/Financial/ProsperaFinancial/Presentation/Partial Designs
 SharedFields:
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4a66d4bb-c5b1-4da1-bcef-96d745fd1942"
+  Value: "77346a8e-e71a-4a3f-845e-a879330fa8c3"
 - ID: "edf38721-e3f4-4a5f-b94b-44b9749ef0fb"
   Hint: Image1
-  Value: 
+  Value: |
+    <image mediaid="9e39b562-02b2-4444-813a-1ee5672a719f" />
 Languages:
 - Language: en
   Versions:
@@ -27,14 +28,14 @@ Languages:
       Value: 20260520T174416Z
     - ID: "342fb66b-0e4b-419d-ba86-2355e33ee1bf"
       Hint: Title1
-      Value: VitalSigns Health System
+      Value: JLG Industries
     - ID: "4770eb87-8856-4251-b831-6c8522c39da1"
       Hint: Copyright
       Value: Copyright © Sitecore
     - ID: "4bf70960-7097-4f87-a67a-8a7e87d1cd01"
       Hint: Text4
       Value: |
-        <div class="ck-content"><p><a href="/?utm_campaign=business">Schedule Appointment</a></p></div>
+        <div class="ck-content"><p><a href="/?utm_campaign=business">Shop JLG Gear</a></p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -49,11 +50,11 @@ Languages:
         <link linktype="external" url="https://www.sitecore.com/legal" target="" text="Terms of Use" title="" class=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4b28fa46-d15f-42f8-ac8e-540ab51cecea"
+      Value: "e18d15e8-da86-4711-8796-5b400fa6fcfa"
     - ID: "92612ddf-b3fd-4597-a655-de6da2eb553f"
       Hint: Text3
       Value: |
-        <div class="ck-content"><p><a href="~/link.aspx?_id=D26AF0F15E5441F0B026C96D4D2BEEA3&amp;_z=z">Specialties</a>&nbsp;</p><p><a href="~/link.aspx?_id=0B45C71D61AE44F39F7D6C88185F0B15&amp;_z=z">By Last Name</a></p><p><a href="~/link.aspx?_id=8C2D676591BE4BD8A0B34F81256E75A6&amp;_z=z">By Location</a></p></div>
+        <div class="ck-content"><p><a href="~/link.aspx?_id=D26AF0F15E5441F0B026C96D4D2BEEA3&amp;_z=z">Our Story</a></p><p><a href="~/link.aspx?_id=0B45C71D61AE44F39F7D6C88185F0B15&amp;_z=z">Corporate Locations</a></p><p><a href="~/link.aspx?_id=8C2D676591BE4BD8A0B34F81256E75A6&amp;_z=z">Sustainability</a></p></div>
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -61,19 +62,19 @@ Languages:
     - ID: "ca370d33-63e1-4e1b-986d-fe82ae23027c"
       Hint: Text2
       Value: |
-        <div class="ck-content"><p><a href="~/link.aspx?_id=406FD98C50E44F3090E46245498A2D10&amp;_z=z">Heart Burn</a></p><p><a href="~/link.aspx?_id=AF81673AE74540B28EA734E0589693A7&amp;_z=z">Indigestion</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">Upset Stomach</a></p></div>
+        <div class="ck-content"><p><a href="~/link.aspx?_id=AF81673AE74540B28EA734E0589693A7&amp;_z=z">BIM Files</a></p><p><a href="~/link.aspx?_id=AF81673AE74540B28EA734E0589693A7&amp;_z=z">Manuals</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">#DirecetAccess Insights</a></p></div>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260528T173105Z
+      Value: 20260528T182828Z
     - ID: "e71e7e6c-29a7-4a9a-a7f8-a4e29609cb64"
       Hint: Title2
-      Value: Conditions
+      Value: Resources
     - ID: "ee146d7d-5c17-47f9-acf4-1583573db084"
       Hint: Title3
-      Value: Doctors
+      Value: About JLG
     - ID: "f17614b2-487a-472c-a509-3e56df0930d4"
       Hint: Title4
-      Value: Quick Links
+      Value: Connect with JLG
 - Language: "fr-CA"
   Versions:
   - Version: 1

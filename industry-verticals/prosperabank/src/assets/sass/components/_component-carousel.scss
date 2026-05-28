@@ -116,12 +116,36 @@
     .side-content {
       z-index: 1;
       padding: 2rem $size-padding 3rem;
+      color: #fff;
+      text-align: left;
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      li,
+      span,
+      strong,
+      em {
+        color: #fff;
+      }
+
+      .button,
+      .button-accent {
+        color: #fff;
+
+        &:hover {
+          color: #fff;
+        }
+      }
 
       @include media-breakpoint-up(md) {
         position: absolute;
         width: 100%;
         inset: 0;
-        text-align: left;
         display: flex;
         align-items: center;
         padding: 2rem 0;

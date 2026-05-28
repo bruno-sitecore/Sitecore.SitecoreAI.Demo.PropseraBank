@@ -78,7 +78,7 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
 
             <div className="side-content">
               <div className="container">
-                <div className="col-lg-5 col-md-6 offset-md-6 offset-lg-7">
+                <div className="col-lg-5 col-md-6 text-start">
                   <h1 className="display-6 fw-bold">
                     <Text field={item.fields.Title}></Text>
                   </h1>

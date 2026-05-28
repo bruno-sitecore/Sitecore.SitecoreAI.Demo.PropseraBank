@@ -352,17 +352,17 @@ Languages:
         sitecore\kaitlyn.folsom@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0065e34d-47dd-4532-88a7-149199ab0e77"
+      Value: "849ce8b9-7499-4d82-a581-16c3618a8f7f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
-      Value: "PLAY! Financial"
+      Value: JLG Industries
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260520T151317Z
+      Value: 20260528T172337Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

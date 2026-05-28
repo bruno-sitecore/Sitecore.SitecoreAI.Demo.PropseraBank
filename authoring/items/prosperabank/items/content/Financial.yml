@@ -45,6 +45,13 @@ SharedFields:
   Value: "{8453C078-6D17-4817-9230-91654AFE69C6}"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "fcae4ee0-d2d6-4f58-ba98-6ffbfa4d228a"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: JLG Industries
   Versions:
   - Version: 1
     Fields:
@@ -57,11 +64,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "57d21824-ae2a-4172-bc02-821f14a17c15"
+      Value: "75b5827b-539d-4892-bdc5-c87d7dc28fee"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260528T171736Z
+      Value: 20260528T172243Z

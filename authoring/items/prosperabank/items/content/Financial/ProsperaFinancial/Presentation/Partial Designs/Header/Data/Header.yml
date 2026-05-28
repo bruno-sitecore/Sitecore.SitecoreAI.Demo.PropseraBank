@@ -14,7 +14,7 @@ Languages:
     - ID: "0bf1334e-9153-4310-89f7-3cd8c5bbf927"
       Hint: LogoImage
       Value: |
-        <image mediaid="f9b4b5a9-f4ab-4b18-9789-c9e9f3ff9971" />
+        <image mediaid="9e39b562-02b2-4444-813a-1ee5672a719f" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20260520T144258Z
@@ -24,11 +24,11 @@ Languages:
         sitecore\brandon.bruno@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c50905ba-cbe6-4820-90b2-7e12fcfb8ce2"
+      Value: "292ca1aa-9a8b-4967-b864-1fbc0aa24f42"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260520T145140Z
+      Value: 20260528T173243Z

@@ -1,16 +1,16 @@
 .site-financial .loan-calculator {
-  --range-slider-color-active: #034c81;
+  --range-slider-color-active: var(--bg-saturated);
   --range-slider-color-inactive: #929292;
   --calc-bg-main: var(--bg-main);
   --calc-bg-box: var(--bg-body);
 
   .dark & {
-    --range-slider-color-active: #031827;
+    --range-slider-color-active: var(--bg-saturated);
     --range-slider-color-inactive: #707070;
   }
 
   &.colored {
-    --range-slider-color-active: #034c81;
+    --range-slider-color-active: var(--bg-saturated);
     --range-slider-color-inactive: #929292;
     --calc-bg-main: var(--bg-body);
     --calc-bg-box: var(--bg-main-alt);
@@ -142,7 +142,7 @@
   .dark & {
     &.colored {
       ::-webkit-slider-thumb {
-        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 30 24" fill="%23034c81" ><path d="M13.479,20.178L5.531,12.04L13.446,3.899L10.582,1L0,12.042L10.602,23L13.479,20.178ZM16.52,3.832L24.489,12L16.574,20.131L19.418,23L30,11.958L19.398,1L16.52,3.832Z" /></svg>');
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 30 24" fill="%23e87722" ><path d="M13.479,20.178L5.531,12.04L13.446,3.899L10.582,1L0,12.042L10.602,23L13.479,20.178ZM16.52,3.832L24.489,12L16.574,20.131L19.418,23L30,11.958L19.398,1L16.52,3.832Z" /></svg>');
       }
     }
   }

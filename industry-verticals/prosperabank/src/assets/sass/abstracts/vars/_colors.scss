@@ -1,35 +1,35 @@
-// Financial
+// Financial — JLG Industries–inspired palette (orange, cream, charcoal)
 .site-financial {
-  --text-body: #333;
+  --text-body: #2b2b2b;
   --text-body-inverted: #fff;
-  --text-colored: #034c81;
+  --text-colored: #e87722;
   --text-footer: #fff;
-  --text-accent: #a82a39;
+  --text-accent: #c45a0a;
   --bg-body: #fff;
-  --bg-footer: #333;
-  --bg-main: #f0f5f7;
-  --bg-main-alt: #f0f5f7;
-  --bg-color: #c5e4f3;
-  --bg-saturated: #034c81;
-  --bg-accent: #c03021;
-  --border-color: #f0f5f7;
+  --bg-footer: #1f1f1f;
+  --bg-main: #f5f2ec;
+  --bg-main-alt: #f5f2ec;
+  --bg-color: #ede4d3;
+  --bg-saturated: #ff5405;
+  --bg-accent: #ff5405;
+  --border-color: #e0dad0;
   --hr-color: #fff;
   --roundness: 1rem;
 
   .dark & {
     --text-body: #fff;
-    --text-body-inverted: #333;
-    --text-colored: #c5e4f3;
+    --text-body-inverted: #2b2b2b;
+    --text-colored: #f5d4a8;
     --text-footer: #fff;
-    --text-accent: #a82a39;
-    --bg-body: #031827;
-    --bg-footer: #333;
-    --bg-main: #034c81;
-    --bg-main-alt: #031827;
-    --bg-color: #034c81;
-    --bg-saturated: #034c81;
-    --bg-accent: #c03021;
-    --border-color: #034c81;
+    --text-accent: #ffb366;
+    --bg-body: #121212;
+    --bg-footer: #1f1f1f;
+    --bg-main: #2b2b2b;
+    --bg-main-alt: #121212;
+    --bg-color: #3d3d3d;
+    --bg-saturated: #e87722;
+    --bg-accent: #d96b12;
+    --border-color: #4a4a4a;
     --hr-color: #fff;
     --roundness: 1rem;
   }

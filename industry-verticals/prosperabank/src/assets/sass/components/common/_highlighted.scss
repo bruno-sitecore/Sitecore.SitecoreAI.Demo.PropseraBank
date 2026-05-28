@@ -1,7 +1,7 @@
 .highlighted-top {
   background: #fff;
   border-top-width: 3px;
-  border-top-color: #15909c;
+  border-top-color: var(--bg-saturated);
   border-style: solid;
   padding: 25px;
   margin: 0;
@@ -17,7 +17,7 @@
 .highlighted-bottom {
   background: #fff;
   border-bottom-width: 3px;
-  border-bottom-color: #15909c;
+  border-bottom-color: var(--bg-saturated);
   border-style: solid;
   padding: 25px;
   margin: 0;
@@ -33,7 +33,7 @@
 .highlighted-left {
   background: #fff;
   border-left-width: 3px;
-  border-left-color: #15909c;
+  border-left-color: var(--bg-saturated);
   border-style: solid;
   padding: 25px;
   margin: 0;
@@ -49,7 +49,7 @@
 .highlighted-right {
   background: #fff;
   border-right-width: 3px;
-  border-right-color: #15909c;
+  border-right-color: var(--bg-saturated);
   border-style: solid;
   padding: 25px;
   margin: 0;

@@ -53,17 +53,20 @@ export const Default = (props: FiveColumnCtaProps): JSX.Element => {
     const [isVisible, domRef] = useVisibility(delay);
     return (
       <div
-        className={`col ${!isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''} `}
+        className={`col ${!isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''}`}
         ref={domRef}
       >
-        <Link field={link}>
+        <Link field={link} className="column-link">
+          <div className="text-container">
+            {(text?.value || isPageEditing) && <Text field={text} tag="h3" />}
+          </div>
+          <hr className="column-divider" aria-hidden="true" />
           <div className="image-container">
-            <NextImage field={image} className="d-block w-100 h-100" width={200} height={200} />
+            {(image?.value?.src || isPageEditing) && (
+              <NextImage field={image} className="d-block" width={280} height={280} />
+            )}
           </div>
         </Link>
-        <div className="text-container">
-          <Text field={text} />
-        </div>
       </div>
     );
   };
@@ -74,7 +77,7 @@ export const Default = (props: FiveColumnCtaProps): JSX.Element => {
       id={id ? id : undefined}
     >
       <div className="container">
-        <div className="row row-cols-2 row-cols-sm-3 row-cols-lg-5 row-gap-3 gx-5 justify-content-center">
+        <div className="row row-cols-2 row-cols-sm-3 row-cols-lg-5 row-gap-3 gx-4 justify-content-center">
           <Column image={props.fields.Image1} text={props.fields.Text1} link={props.fields.Link1} />
           <Column
             image={props.fields.Image2}

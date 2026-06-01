@@ -46,6 +46,11 @@ const getLinkField = (props: NavigationProps): LinkField => ({
   },
 });
 
+const BUTTON_NAV_ITEM_STYLE = 'button-nav-item';
+
+const isButtonNavItem = (fields: Fields): boolean =>
+  fields.Styles?.includes(BUTTON_NAV_ITEM_STYLE) ?? false;
+
 export const Default = (props: NavigationProps): JSX.Element => {
   const [isPreviewSearchOpen, setIsPreviewSearchOpen] = useState(false);
   const [isOpenMenu, openMenu] = useState(false);
@@ -108,7 +113,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
   };
 
   const list = Object.values(props.fields)
-    .filter((element) => element)
+    .filter((element): element is Fields => !!element && !isButtonNavItem(element))
     .map((element: Fields, key: number) => (
       <NavigationList
         key={`${key}${element.Id}`}
@@ -175,14 +180,16 @@ const NavigationList = (props: NavigationProps) => {
 
   let children: JSX.Element[] = [];
   if (props.fields.Children && props.fields.Children.length) {
-    children = props.fields.Children.map((element: Fields, index: number) => (
+    children = props.fields.Children.filter((element) => !isButtonNavItem(element)).map(
+      (element: Fields, index: number) => (
       <NavigationList
         key={`${index}${element.Id}`}
         fields={element}
         handleClick={props.handleClick}
         relativeLevel={props.relativeLevel + 1}
       />
-    ));
+    )
+    );
   }
 
   return (

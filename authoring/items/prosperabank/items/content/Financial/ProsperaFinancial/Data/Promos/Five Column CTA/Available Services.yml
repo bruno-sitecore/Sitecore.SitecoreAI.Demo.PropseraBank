@@ -62,7 +62,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1794b088-9a7f-4162-abea-fdb6ff3296ca"
+      Value: "8171e655-76f2-4ef8-83fd-d7fee7d8636e"
     - ID: "8f49a654-7b7f-4c0b-b6df-d3ce2389c1bf"
       Hint: Text2
       Value: Scissor Lifts
@@ -75,7 +75,7 @@ Languages:
     - ID: "b867909f-d20c-4c76-b82f-778d25239cd1"
       Hint: Link1
       Value: |
-        <link class="" querystring="" id="{D26AF0F1-5E54-41F0-B026-C96D4D2BEEA3}" anchor="" target="" title="" linktype="internal" text="" url="/Financial/ProsperaBank/Home/get-a-loan" />
+        <link linktype="external" url="http://google.com" anchor="" target="" />
     - ID: "b8b8fa51-0c41-442e-8757-07b7a59d6d3f"
       Hint: Link4
       Value: |
@@ -86,7 +86,7 @@ Languages:
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260529T194558Z
+      Value: 20260605T142729Z
     - ID: "f5e90981-3210-4316-bcf5-f083fe639e66"
       Hint: Text4
       Value: Low Level Access

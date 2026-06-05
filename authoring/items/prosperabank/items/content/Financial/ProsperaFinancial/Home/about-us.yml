@@ -16,7 +16,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{5474EE55-9CE2-4212-A185-277E155983F4}" />
+    <image mediaid="{825BA8AB-45E0-4BD5-9FAC-4F9BE0EA54E9}" />
 - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
   Hint: BackgroundImage
   Value: |
@@ -72,10 +72,10 @@ Languages:
     Fields:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
-      Value: 
+      Value: <r />
     - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
       Hint: Title
-      Value: "About PLAY! Finance"
+      Value: About JLG Industries, Inc.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20260520T145520Z
@@ -94,14 +94,14 @@ Languages:
         sitecore\brandon.bruno@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ac690fa2-5985-4e0c-a8c8-ae532263fc76"
+      Value: "f58625eb-b792-4eab-9058-313c97c1f7e7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260520T145520Z
+      Value: 20260603T193905Z
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

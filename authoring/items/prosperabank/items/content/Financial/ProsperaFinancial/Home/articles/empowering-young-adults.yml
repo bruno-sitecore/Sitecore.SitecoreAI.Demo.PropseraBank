@@ -2,7 +2,7 @@
 ID: "8be847b3-4d85-4666-a3fe-9e11811292d8"
 Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
-Path: "/sitecore/content/Financial/ProsperaFinancial/Home/support/empowering-young-adults"
+Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/empowering-young-adults"
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
@@ -42,7 +42,7 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Empowering young adults
+    Value: Operator training and certification
   Versions:
   - Version: 1
     Fields:
@@ -52,38 +52,38 @@ Languages:
     - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
       Hint: Content
       Value: |
-        <p>In a world where financial independence is crucial for success, young adults often find themselves navigating a complex maze of financial decisions without the necessary guidance and support. Recognizing this challenge, PLAY! Finance is proud to introduce a transformative initiative aimed at empowering young adults to take control of their finances and build a solid foundation for their future.&nbsp;</p>
+        <p>Skilled operators are the backbone of every safe and productive job site. JLG Industries offers comprehensive training and certification programs to help new and experienced operators develop the knowledge and confidence they need to operate telehandlers, boom lifts, scissor lifts, and other access equipment safely.&nbsp;</p>
         <p>
-        <strong>Interactive Educational Workshops</strong></p>
-        <p>Our program includes a series of interactive workshops and seminars covering essential financial topics such as budgeting, saving, investing, and managing debt. Led by industry experts, these sessions are designed to be engaging, informative, and actionable, equipping participants with practical skills they can apply to their everyday lives.</p>
-        <p><strong>Digital Learning Resources</strong></p>
-        <p>In addition to in-person workshops, participants have access to a wealth of digital learning resources available on our platform. From articles and videos to interactive modules and quizzes, our online resources cover a wide range of financial literacy topics, allowing young adults to learn at their own pace and on their own schedule.</p>
-        <p><strong>Mentorship and Coaching</strong></p>
-        <p>We believe that mentorship is a powerful tool for personal and professional growth. That's why we offer mentorship and coaching opportunities, pairing young adults with experienced mentors who can provide guidance, support, and personalized advice tailored to their individual financial goals and circumstances.</p>
-        <p><strong>Community Engagement</strong></p>
-        <p>Building a supportive community is essential for success. Our program fosters connections among young adults, providing a platform where they can connect with peers, share experiences, and learn from one another's successes and challenges. Through collaboration and mutual support, we believe that young adults can achieve greater financial empowerment together.
+        <strong>Operator training programs</strong></p>
+        <p>JLG training covers essential topics including equipment controls, pre-operation inspections, load charts, terrain considerations, and safe operating procedures. Courses are available for telehandlers, aerial work platforms, and specialty equipment, with options for classroom instruction, hands-on practice, and train-the-trainer programs.</p>
+        <p><strong>Digital learning resources</strong></p>
+        <p>In addition to in-person training, JLG provides online learning modules, videos, and reference materials through its support portal. These resources allow operators and supervisors to refresh skills, learn about new models, and stay current with industry best practices at their own pace.</p>
+        <p><strong>Familiarization and compliance</strong></p>
+        <p>Equipment familiarization ensures that operators understand the specific controls, safety features, and operating characteristics of the machines they will use on site. JLG training supports compliance with OSHA, ANSI, and local regulatory requirements for aerial and material-handling equipment.</p>
+        <p><strong>Building a culture of safety</strong></p>
+        <p>Investing in operator training reduces incidents, protects equipment, and improves productivity. Trained operators make better decisions under pressure, communicate more effectively with ground personnel, and contribute to a culture where safety is everyone's responsibility.
         </p>
         <p>
         <strong>Conclusion</strong></p>
-        <p>At PLAY! Finance, we're committed to empowering young adults to take control of their financial futures. By providing them with the knowledge, tools, and support they need to make informed decisions, we believe that we can help them achieve their goals and aspirations, setting them on a path toward long-term success and prosperity.
+        <p>At JLG, we believe that well-trained operators are essential to getting the most from your equipment investment. Whether you are onboarding new team members or upskilling experienced operators, our training programs provide the foundation for safe, efficient work at height and on the ground.
         </p>
         <p>
-        <em><strong>Are you ready to take control of your financial future? Join us at PLAY! Finance and embark on a journey toward financial empowerment today!</strong></em></p>
+        <em><strong>Ready to strengthen your team's skills? Contact your local JLG dealer to explore operator training and certification options for your fleet.</strong></em></p>
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
-      Value: "Financial literacy is key to unlocking opportunities and achieving long-term goals. We've developed a comprehensive program designed specifically for young adults, providing them with the tools, resources, and knowledge they need to succeed."
+      Value: JLG operator training and certification programs help your team safely operate telehandlers, boom lifts, scissor lifts, and other access equipment.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Empowering young adults
+      Value: Operator training and certification
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "0b378e4d-1083-42cb-9fcf-74656f4a2289"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
-      Value: "Empowering young adults: Control of your financial future"
+      Value: Operator training and certification with JLG Industries
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

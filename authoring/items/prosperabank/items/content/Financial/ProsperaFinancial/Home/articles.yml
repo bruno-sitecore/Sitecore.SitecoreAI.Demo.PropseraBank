@@ -2,7 +2,7 @@
 ID: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Parent: "b2a38fb8-2e85-4d58-afe5-c12beccbee3a"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
-Path: /sitecore/content/Financial/ProsperaFinancial/Home/support
+Path: /sitecore/content/Financial/ProsperaFinancial/Home/articles
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
@@ -49,10 +49,10 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "18ca25be-2463-4071-bd40-eaa41b09c3ae"
+    Value: "e7b8c11a-73e1-4f01-814e-e72e0fe5d904"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Support
+    Value: Articles
   Versions:
   - Version: 1
     Fields:
@@ -80,14 +80,14 @@ Languages:
         sitecore\brandon.bruno@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bbec9178-daea-43a4-9f6e-ebbdd6503e23"
+      Value: "438ab9f7-589e-4344-89d5-48836abe9104"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260528T173942Z
+      Value: 20260607T121220Z
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

@@ -2,7 +2,7 @@
 ID: "bfcff490-4d41-4b86-907b-7760788d38e6"
 Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
-Path: "/sitecore/content/Financial/ProsperaFinancial/Home/support/important-announcement-play-finance-client"
+Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/important-announcement-play-finance-client"
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
@@ -45,7 +45,7 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: An important announcement for our clients
+    Value: Important announcement from JLG Industries
   Versions:
   - Version: 1
     Fields:
@@ -55,37 +55,37 @@ Languages:
     - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
       Hint: Content
       Value: |
-        <p>PLAY! Finance, a leading provider of cutting-edge financial services, is pleased to share an exciting update with its valued clients.
+        <p>JLG Industries, a global leader in telehandlers and aerial access equipment, is pleased to share an important update with customers, dealers, and partners worldwide.
         <br />
         <br />
-        Arthur Spannos, CEO at PLAY! Finance, expressed, "<strong><em>We're thrilled to announce a significant milestone in our ongoing commitment to empowering our clients to achieve financial wellness.</em></strong>"
-        Key highlights of the announcement include:</p>
+        JLG leadership expressed, "<strong><em>We remain committed to delivering the access solutions our customers depend on—telehandlers, boom lifts, scissor lifts, and more—backed by the support and service that keep fleets running.</em></strong>"
+        Key highlights of this announcement include:</p>
         <ul>
             <li>
-            <strong>Enhanced User Experience:</strong> Introducing new features and improvements to streamline the user experience and make managing finances even more intuitive and convenient.</li>
-            <li><strong>Expanded Product Offerings:</strong> Introducing new financial products and services to address the evolving needs of our clients and provide them with even more ways to achieve their financial goals.</li>
-            <li><strong>Continued Focus on Security:</strong> Maintaining the highest standards of security and privacy to ensure that our clients can trust us with their sensitive financial information.</li>
-            <li><strong>Commitment to Customer Satisfaction:</strong> Redoubling our efforts to provide exceptional customer service and support, ensuring that our clients receive the assistance they need, whenever they need it.</li>
+            <strong>Expanded telehandler lineup:</strong> New and updated G5 series telehandler models offer improved visibility, higher capacity options, and refined operator controls for demanding material-handling applications.</li>
+            <li><strong>Broader product portfolio:</strong> Continued investment in boom lifts, scissor lifts, vertical mast lifts, and low-level access solutions to meet the evolving needs of construction, industrial, and maintenance markets.</li>
+            <li><strong>Enhanced support options:</strong> Expanded parts availability, dealer service capabilities, and online technical resources to minimize downtime and maximize fleet uptime.</li>
+            <li><strong>Commitment to safety and training:</strong> Ongoing operator training programs, familiarization resources, and safety initiatives to help customers operate equipment confidently and in compliance with industry standards.</li>
         </ul>
-        <p>"<strong><em>We're dedicated to our clients' success, and this announcement represents our ongoing commitment to delivering innovative solutions that empower them to take control of their financial futures</em></strong>.", added Arthur Spannos.</p>
-        <p>For more information about these exciting updates and how they will benefit PLAY! Finance clients, visit the PLAY! Finance website or your local branch.</p>
-        <p><strong>About PLAY! Finance</strong><br />
-        PLAY! Finance is a leading provider of innovative financial solutions, dedicated to empowering individuals to achieve financial wellness. Through advanced technology and personalized tools, PLAY! Finance is redefining the way consumers engage with their finances, making financial management accessible, engaging, and rewarding for all.</p>
+        <p>"<strong><em>Our customers rely on JLG equipment to get people and materials where they need to go—safely and efficiently. This announcement reflects our continued investment in products, support, and innovation across the full JLG portfolio</em></strong>."</p>
+        <p>For more information about JLG telehandlers, aerial platforms, support options, and dealer locations, visit jlg.com or contact your local JLG dealer.</p>
+        <p><strong>About JLG Industries</strong><br />
+        JLG Industries is a leading manufacturer of telehandlers and aerial work platforms, dedicated to helping people and materials reach their destinations safely and efficiently. Through continuous innovation and a global dealer network, JLG serves construction, industrial, and maintenance markets worldwide.</p>
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
-      Value: "PLAY! Finance announces a series of enhancements and expansions aimed at optimizing the client experience and furthering financial empowerment."
+      Value: JLG Industries announces expanded telehandler models, product portfolio updates, enhanced support options, and continued commitment to operator safety and training.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: An important announcement for our clients
+      Value: Important announcement from JLG Industries
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "dc6076c6-d897-4ff8-8c3d-51b9d2f10094"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
-      Value: An important announcement for our clients
+      Value: Important announcement from JLG Industries
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

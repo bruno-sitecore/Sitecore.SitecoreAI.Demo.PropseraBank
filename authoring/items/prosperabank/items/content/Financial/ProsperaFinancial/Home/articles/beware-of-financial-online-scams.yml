@@ -2,7 +2,7 @@
 ID: "e68ae959-c283-44db-8c79-75f4854aa3e4"
 Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
-Path: "/sitecore/content/Financial/ProsperaFinancial/Home/support/beware-of-financial-online-scams"
+Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/beware-of-financial-online-scams"
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
@@ -67,7 +67,7 @@ Languages:
     - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
       Hint: Content
       Value: |
-        <div class="ck-content"><p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Maecenas sed augue euismod, sodales urna id, tincidunt massa. Phasellus elit risus, vulputate at facilisis a, porta vitae ex. Aliquam et lacus a nisi accumsan gravida ut sed dui. Nulla tempor varius efficitur. Aenean mollis eleifend justo ac vestibulum. In et euismod leo. Nunc feugiat nisi est, vitae ornare ligula lobortis nec. Integer gravida ligula ac arcu accumsan gravida. Vestibulum interdum libero eu leo pellentesque, vitae interdum nisl accumsan. Vivamus molestie facilisis est, non blandit neque gravida id. Sed at lacus a erat convallis sodales id nec sem. Suspendisse ut consequat nisi, ut placerat nibh. Cras vulputate felis nibh, id gravida nisi volutpat ut.&nbsp;</p><p>Maecenas varius ante nec rutrum finibus. Fusce ultrices interdum volutpat. Maecenas eu congue mi. Nullam ipsum lorem, volutpat non turpis ut, fringilla scelerisque neque. Proin feugiat nisi libero, at pharetra lorem cursus eget. Vestibulum vehicula eros in lectus lobortis, vitae consequat turpis egestas. Ut blandit augue ut est fringilla dignissim non sed quam. Nulla ac orci dapibus, semper dui hendrerit, aliquet tortor. Pellentesque rhoncus aliquam velit, eu faucibus ante molestie sit amet. Sed tempor neque sed vulputate elementum. In libero orci, fringilla et cursus vel, feugiat et magna. Vestibulum hendrerit neque sit amet risus bibendum volutpat. Suspendisse nec enim vel nisi eleifend feugiat. Nullam mi nulla, pretium sit amet cursus gravida, euismod eu metus. Nam vel velit sit amet mi accumsan condimentum nec id tortor. Fusce at pretium augue.</p></div>
+        <div class="ck-content"><p><strong>JLG Industries is committed to keeping your equipment running and your crews productive.</strong> Whether you operate telehandlers, boom lifts, scissor lifts, or other JLG access equipment, our support network is designed to help you find answers fast—from routine maintenance to urgent field repairs.</p><p><strong>Parts and service</strong></p><p>Keep your fleet moving with genuine JLG parts and factory-trained service technicians. Our authorized dealer network provides preventive maintenance programs, warranty support, and emergency repair services to minimize downtime on your job site.</p><p><strong>Technical support and resources</strong></p><p>Access operator manuals, service bulletins, parts catalogs, and troubleshooting guides through JLG's online support portal. Technical specialists are available to help diagnose issues, recommend solutions, and guide you through complex repairs.</p><p><strong>Training and safety support</strong></p><p>JLG offers operator training, familiarization programs, and safety resources to help your team work confidently and comply with industry regulations. From telehandler load charts to aerial platform best practices, we provide the knowledge you need to operate safely and efficiently.</p><p><strong>Contact your local dealer</strong></p><p>For product support tailored to your equipment and application, connect with your nearest JLG dealer. They can help with parts ordering, service scheduling, equipment inspections, and fleet management solutions.</p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20260605T142128Z
@@ -76,10 +76,10 @@ Languages:
       Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
-      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Value: Find JLG parts, service, technical support, and training resources to keep your telehandlers and lift equipment running at peak performance.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Beware of financial online scams
+      Value: Get product support and information
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

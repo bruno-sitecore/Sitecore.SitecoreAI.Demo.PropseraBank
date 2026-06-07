@@ -2,7 +2,7 @@
 ID: "f48cfb42-d442-489f-8d2e-31927382366b"
 Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
-Path: "/sitecore/content/Financial/ProsperaFinancial/Home/support/five-tips-for-new-retirees"
+Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/five-tips-for-new-retirees"
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
@@ -42,7 +42,7 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 5 tips for new retirees
+    Value: Five tips for telehandler safety
   Versions:
   - Version: 1
     Fields:
@@ -52,43 +52,43 @@ Languages:
     - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
       Hint: Content
       Value: |
-        <p>Retirement marks the beginning of a new chapter in life&mdash;one filled with freedom, opportunities, and new adventures. As you embark on this exciting journey, it's important to be prepared and equipped with the knowledge and resources to make the most of your retirement years.
+        <p>Operating a telehandler safely requires preparation, training, and attention to detail on every shift. Whether you are placing steel on a high-rise or moving palletized materials on an industrial site, these five tips from JLG Industries can help protect your crew and your equipment.
         </p>
-        <p><strong>1. Financial Planning</strong>
+        <p><strong>1. Know your load chart</strong>
         </p>
-        <p>One of the first steps in preparing for retirement is to create a comprehensive financial plan. Evaluate your retirement savings, investments, and sources of income, and determine a budget that aligns with your lifestyle and goals. Consider consulting with a financial advisor to ensure that your retirement plan is robust and sustainable for the long term.</p>
+        <p>Every JLG telehandler has a load chart that defines safe lifting capacity at various heights and reaches. Before lifting, verify that your load weight and placement point fall within the chart limits for your boom angle and extension. Never exceed rated capacity—it is the foundation of safe telehandler operation.</p>
         <p>
-        <strong>2. Health Care Coverage</strong>
+        <strong>2. Inspect before every shift</strong>
         </p>
-        <p>Health care costs can be a significant expense in retirement, so it's essential to understand your health care coverage options. If you're eligible for Medicare, familiarize yourself with the different parts and coverage options available to you. Consider supplemental insurance plans to fill any gaps in coverage and protect yourself against unexpected medical expenses.</p>
-        <p><strong>3. Social Security Benefits</strong></p>
-        <p>Make sure you understand how Social Security benefits work and when is the best time to start claiming them. While you can begin receiving benefits as early as age 62, delaying retirement can increase your monthly benefit amount. Consider your financial situation and retirement goals carefully before making a decision about when to start claiming Social Security.</p>
+        <p>Conduct a pre-operation inspection covering tires, fluids, hoses, forks, attachments, lights, and safety devices. Report and resolve any defects before use. Regular inspections catch small issues before they become safety hazards or costly breakdowns.</p>
+        <p><strong>3. Use the right attachment</strong></p>
+        <p>Match the attachment to the task—forks for palletized loads, buckets for bulk material, truss booms for long loads, and approved work platforms for personnel elevation. Ensure attachments are properly secured and rated for the telehandler model you are operating.</p>
         <p>
-        <strong>4. Lifestyle Adjustments</strong></p>
-        <p>Retirement often involves significant lifestyle changes, both in terms of how you spend your time and how you manage your finances. Take the time to assess your priorities, interests, and goals for retirement, and adjust your lifestyle accordingly. Explore new hobbies, travel opportunities, and ways to stay active and engaged in your community.</p>
+        <strong>4. Maintain stability on uneven terrain</strong></p>
+        <p>Position the telehandler on firm, level ground whenever possible. Use four-wheel drive and the frame-leveling system on rough terrain. Travel with the load low and boom retracted, and avoid sudden movements that can shift the center of gravity.</p>
         <p>
-        <strong>5. Estate Planning</strong></p>
-        <p>Estate planning is an essential aspect of retirement planning that many people overlook. Review your estate plan, including your will, trusts, and powers of attorney, to ensure that your wishes are documented and your assets are protected. Consider updating your beneficiaries and designating someone to make financial and medical decisions on your behalf if necessary.</p>
+        <strong>5. Invest in operator training</strong></p>
+        <p>Proper training is essential for safe telehandler operation. JLG offers operator training and familiarization programs that cover controls, load management, terrain considerations, and regulatory requirements. Trained operators work more confidently and reduce the risk of incidents on the job site.</p>
         <p>
         <strong>Conclusion</strong></p>
-        <p>Retirement is an exciting milestone that offers the opportunity to embrace new experiences and enjoy the fruits of your labor. By taking the time to plan and prepare for retirement, you can ensure a smooth transition and set yourself up for a fulfilling and financially secure future. Remember to stay informed, stay engaged, and make the most of every moment as you embark on this new chapter of your life.
+        <p>Telehandlers are among the most versatile machines on a job site, but that versatility comes with responsibility. By following load charts, inspecting equipment, using proper attachments, maintaining stability, and investing in training, your team can maximize productivity while keeping safety the top priority.
         </p>
-        <p><strong><em>Are you ready to start your retirement journey? Contact us today to learn more about how we can help you plan for a successful retirement.</em></strong></p>
+        <p><strong><em>Need operator training or support for your JLG telehandler fleet? Contact your local JLG dealer to learn about available programs and resources.</em></strong></p>
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
-      Value: Whether you're just starting to plan for retirement or have recently retired, here are some essential tips to help you navigate this transition with confidence and peace of mind.
+      Value: Five essential tips for safe JLG telehandler operation, covering load charts, inspections, attachments, terrain stability, and operator training.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: 5 tips for new retirees
+      Value: Five tips for telehandler safety
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "64e46c09-6a08-4f64-9254-bca2da71e206"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
-      Value: "Starting your retirement journey: 5 tips for new retirees"
+      Value: Five tips for safe JLG telehandler operation
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

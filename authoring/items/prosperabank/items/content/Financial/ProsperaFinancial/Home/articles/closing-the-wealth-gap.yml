@@ -2,7 +2,7 @@
 ID: "fb9b938e-df02-46e7-9354-613d29e0b4ac"
 Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
-Path: "/sitecore/content/Financial/ProsperaFinancial/Home/support/closing-the-wealth-gap"
+Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/closing-the-wealth-gap"
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
@@ -42,7 +42,7 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Bridging the wealth divide
+    Value: Choosing the right JLG telehandler
   Versions:
   - Version: 1
     Fields:
@@ -52,38 +52,32 @@ Languages:
     - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
       Hint: Content
       Value: |
-        <p>Closing the wealth gap has become a paramount concern in achieving economic justice and prosperity for all. Let's explore the complexities of the wealth gap, its far-reaching implications, and actionable steps individuals and communities can take to work towards a more equitable distribution of wealth.</p>
-        <p><strong>Understanding the Wealth Gap</strong></p>
-        <p>
-        The wealth gap refers to the disparity in assets and wealth distribution between different socioeconomic groups within a society. This divide is often influenced by factors such as income inequality, systemic barriers, discriminatory practices, and historical injustices, resulting in unequal access to opportunities and resources.
-        </p>
-        <p><strong>Implications of the Wealth Gap</strong></p>
-        <p>
-        The consequences of the wealth gap extend beyond financial disparities, affecting various aspects of individuals' lives, including access to education, healthcare, housing, and economic mobility. Inequality perpetuates cycles of poverty and marginalization, hindering social mobility and stifling economic growth and innovation.</p>
-        <p><strong>Addressing the Wealth Gap</strong></p>
-        <p>Closing the wealth gap requires a multifaceted approach that addresses both systemic and individual factors contributing to inequality. Government policies, such as progressive taxation, wealth redistribution, and investment in social programs, play a crucial role in leveling the playing field and creating opportunities for marginalized communities.</p>
-        <p><strong>Empowering Individuals and Communities</strong></p>
-        <p>In addition to policy interventions, empowering individuals and communities with access to education, financial literacy, entrepreneurship opportunities, and wealth-building resources is essential for bridging the wealth gap. Investing in education and skills training equips individuals with the tools and knowledge to secure higher-paying jobs and build generational wealth.</p>
-        <p><strong>Promoting Diversity and Inclusion</strong></p>
-        <p>Promoting diversity and inclusion in all sectors of society, including business, academia, and government, is essential for creating an environment where everyone has an equal opportunity to succeed. Embracing diversity fosters innovation, creativity, and collaboration, driving economic growth and prosperity for all.</p>
-        <p><strong>Towards a More Equitable Future</strong></p>
-        <p>Closing the wealth gap is not only a moral imperative but also an economic necessity for building a more just and sustainable society. By addressing systemic inequalities, empowering individuals and communities, and promoting diversity and inclusion, we can work together to create a future where everyone has the opportunity to thrive and prosper, regardless of their background or circumstances.</p>
-        <p><em>Join us in our commitment to closing the wealth gap and building a more equitable world for generations to come.</em></p>
+        <p>Selecting the right telehandler is one of the most important equipment decisions on a construction or industrial job site. JLG telehandlers are built to lift, place, and move materials efficiently— but matching the machine to your application requires careful evaluation of reach, capacity, and site conditions.</p>
+        <p><strong>Understand your lift requirements</strong></p>
+        <p>Start by defining the maximum lift height, forward reach, and load weight your application demands. JLG telehandlers range from compact models for tight spaces to high-capacity machines for heavy industrial work. Review load charts for each model to ensure safe operation at your required working envelope.</p>
+        <p><strong>Consider terrain and environment</strong></p>
+        <p>Job site conditions matter. Rough terrain, uneven ground, and outdoor exposure call for telehandlers with four-wheel drive, oscillating axles, and robust stability systems. For indoor or finished-surface work, compact telehandlers with tighter turning radius and lower ground pressure may be the better fit.</p>
+        <p><strong>Evaluate attachments and versatility</strong></p>
+        <p>Telehandlers do more than fork lifts. JLG machines support a wide range of attachments—including buckets, truss booms, work platforms, and specialty carriages—that expand what a single machine can accomplish. Choose a model compatible with the attachments your projects require most.</p>
+        <p><strong>Operator comfort and visibility</strong></p>
+        <p>Productivity depends on operator confidence. JLG telehandlers feature spacious cabs, intuitive controls, and excellent visibility to the load and surroundings. Models in the G5 series offer refined ergonomics and enhanced sight lines to help operators work safely and efficiently throughout the shift.</p>
+        <p><strong>Talk to a JLG dealer</strong></p>
+        <p>Your local JLG dealer can recommend the right telehandler based on your specific application, fleet needs, and budget. They can also assist with rental, purchase, and service options to keep your operation running smoothly.</p>
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
-      Value: Explore the complexities of the wealth gap and discover actionable steps towards a more equitable future. Join us in the commitment to closing the gap and building a world where everyone has the opportunity to thrive.
+      Value: Learn how to select the right JLG telehandler based on lift capacity, reach, terrain, attachments, and operator needs for your job site.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Bridging the wealth divide
+      Value: Choosing the right JLG telehandler
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "edcfdbce-bdeb-4ae6-8031-8d18c9b6cd43"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
-      Value: Bridging the wealth divide
+      Value: Choosing the right JLG telehandler for your job site
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

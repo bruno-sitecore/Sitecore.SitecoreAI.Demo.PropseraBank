@@ -36,7 +36,11 @@ SharedFields:
   Value: "{8B77B250-9318-47A8-9B33-6D35B27F5897}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "77e7fef2-8a7b-442d-971c-b79cc600f34c"
+  Value: "1a336359-dd8a-4194-bce7-36d36c7f412d"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    au|sitecore\bmbruno@gmail.com|pd|+item:delete|+item:admin|+item:write|+item:read|^*|+item:rename|+item:create|pe|+item:delete|+item:admin|+item:write|+item:read|^*|+item:rename|+item:create|ar|sitecore\Sitecore Client Site Managing|pd|+item:delete|+item:write|+item:rename|+item:create|pe|+item:delete|+item:write|+item:rename|+item:create|
 - ID: "e90a4413-c111-4951-9b6a-00c4ce7fb289"
   Hint: MediaLibrary
   Value: "{9630299A-F0C0-4B95-BB56-ADB394885D48}"
@@ -64,11 +68,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bfa86d9e-6e47-4dc2-99b6-fbe6138129fd"
+      Value: "fb5e5c5e-964c-4ee4-93ac-3c2462e743f9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260603T193300Z
+      Value: 20260608T152119Z

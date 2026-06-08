@@ -1,33 +1,30 @@
 ﻿---
-ID: "9df36b83-7fbe-4005-834b-e0d73a35a045"
+ID: "277f5c04-71f7-4ff3-b4fd-1c5b322e66f3"
 Parent: "bb81a942-713a-4da1-ab8e-e6d504899ed3"
 Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
-Path: /sitecore/content/Financial/ProsperaFinancial/Data/Promos/Promo CTA/Boom Lifts Default
+Path: /sitecore/content/Financial/ProsperaFinancial/Data/Promos/Promo CTA/Telehandlers Ohio
 SharedFields:
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "052b341c-934c-4ddc-b027-ac7c5c752fd0"
+  Value: "9bf1c87a-2da9-4a3e-932d-0ccfe9d12616"
 - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
   Hint: Image
   Value: |
-    <image mediaid="c2d0cda3-bcdc-4f5e-b9dc-22944178b25d" />
+    <image mediaid="{876C0CF9-8E72-4728-98D2-361946FA8243}" />
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: <r />
     - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
       Hint: Title
-      Value: Keep productivity high with JLG Telehandlers
+      Value: Let JLG help you scale your Ohio datacenter project
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251030T165636Z
     - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
       Hint: Eyebrow
-      Value: Up, up, and away
+      Value: Ignore the Corn
     - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
       Hint: Link2
       Value: 
@@ -41,7 +38,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fcca2d70-92a2-4e1d-b3e4-ad7969a604f6"
+      Value: "691cac8d-b208-4255-b166-264a60e74c5b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -49,13 +46,15 @@ Languages:
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
       Value: |
-        <div class="ck-content"><p>When choosing a JLG® telehandler, you’ve got a powerful range of options. The robust lineup includes compact, high-capacity and rotating telehandlers, along with a wide variety of attachments for even more versatility on the job site.</p></div>
+        <p>
+        From Central Ohio&rsquo;s rapidly expanding digital infrastructure to the state&rsquo;s reliable power, scalable land, and dense fiber connectivity, teams can take on everything from compact edge deployments to massive hyperscale campuses.
+        </p>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260608T131411Z
+      Value: 20260608T133801Z
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
-      Value: 
+      Value: When building out data centers in Ohio, you’ve got a powerful range of capabilities at your fingertips.
 - Language: "fr-CA"
   Versions:
   - Version: 1

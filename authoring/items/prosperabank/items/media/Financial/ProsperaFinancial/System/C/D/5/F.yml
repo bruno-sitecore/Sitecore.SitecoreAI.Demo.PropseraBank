@@ -1,8 +1,8 @@
 ﻿---
-ID: "dd517d64-dd41-43d6-b4ce-a94ec011bada"
-Parent: "8c8787c0-66cc-462c-881e-cada3427e98d"
-Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
-Path: /sitecore/content/Financial/ProsperaFinancial/Home/TEST/Data/Promo CTA 2
+ID: "f4381f69-3681-4582-a91c-93e15651f6b3"
+Parent: "3030a030-319e-4e3d-a52e-b1bec08e9c94"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Financial/ProsperaFinancial/System/C/D/5/F
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260608T131204Z
+      Value: 20260608T132231Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\brandon.bruno@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e0668982-abe4-4410-993b-fb326bd41492"
+      Value: "f2c409db-c3b9-4457-b4a1-72de3f692fd3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260608T131204Z
+      Value: 20260608T132231Z

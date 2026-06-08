@@ -1,8 +1,8 @@
 ﻿---
-ID: "5f7990c6-97d0-432d-a3ff-e1037af55203"
+ID: "cd5f683f-26bf-44b2-9573-ef1df8308038"
 Parent: "b2a38fb8-2e85-4d58-afe5-c12beccbee3a"
 Template: "14431dce-508d-4d54-9d04-c22abbdc8f83"
-Path: /sitecore/content/Financial/ProsperaFinancial/Home/TEST
+Path: /sitecore/content/Financial/ProsperaFinancial/Home/pagepers
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
@@ -10,10 +10,10 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{13E56E55-1DDE-4307-B299-B4F2882655A8}" />
+    <image mediaid="{A196C030-33AF-4653-B7BE-566638B3324C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8777fa14-9c92-4df1-9368-9b0bc6bee30c"
+  Value: "d0b34898-43a0-4f89-bdb7-01456fa69516"
 Languages:
 - Language: en
   Versions:
@@ -30,46 +30,33 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{DFC151A3-234E-4295-9569-E74C639A6A0C}"
-              p:before="*"
-              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7C%7B0D837170-C046-444A-9E0C-2C8017A3F6FB%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
-              s:ph="headless-main" />
-            <r
-              uid="{7075F7DD-655C-4447-BD75-BD1328E45E76}"
-              p:after="r[@uid='{DFC151A3-234E-4295-9569-E74C639A6A0C}']"
+              uid="{3188D14D-E1F7-400C-9BE7-9643D92D274E}"
               s:ds="9df36b83-7fbe-4005-834b-e0d73a35a045"
               s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE7077939-8F32-4C4F-AAAD-A7C53F623CE0%7D&amp;Styles=%7C%7B96542870-8A0D-48D0-A440-FA4F7B9B9625%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE7077939-8F32-4C4F-AAAD-A7C53F623CE0%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
               s:ph="headless-main" />
-            <r
-              uid="{C349FDD8-FD5D-4D66-953F-C0D8C637233B}"
-              p:after="*[1=2]"
-              s:id="{613A1798-71DD-4A5C-A183-A3BAB92289C4}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
-              s:ph="/headless-main/container-3" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260607T200248Z
+      Value: 20260608T132230Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{57CC7DCE-E6B1-4564-9581-0E5850B8BDF2}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: TEST
+      Value: pagepers
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9981f3ca-fb78-4e4f-a832-3b502b8816af"
+      Value: "fa942ea7-8040-45cb-bf41-5e1e6a105734"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260608T131357Z
+      Value: 20260608T132247Z

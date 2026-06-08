@@ -16,6 +16,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
       Hint: Title
       Value: Let JLG help you scale your Ohio datacenter project
@@ -31,14 +34,14 @@ Languages:
     - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
       Hint: Link
       Value: |
-        <link linktype="external" url="https://www.jlg.com/en/equipment/telehandlers/jlg" target="" text="Learn More" title="" class=""/>
+        <link linktype="external" url="https://www.jlg.com/en/equipment/telehandlers/jlg" text="Start Shopping"/>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "691cac8d-b208-4255-b166-264a60e74c5b"
+      Value: "6e94b82d-fe91-4077-a98f-34ebf02de88d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -46,12 +49,10 @@ Languages:
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
       Value: |
-        <p>
-        From Central Ohio&rsquo;s rapidly expanding digital infrastructure to the state&rsquo;s reliable power, scalable land, and dense fiber connectivity, teams can take on everything from compact edge deployments to massive hyperscale campuses.
-        </p>
+        <div class="ck-content"><p>Keep Central Ohio on track and ensure jobs are completed on time.</p></div>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260608T133801Z
+      Value: 20260608T134349Z
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
       Value: When building out data centers in Ohio, you’ve got a powerful range of capabilities at your fingertips.

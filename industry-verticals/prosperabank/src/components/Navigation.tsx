@@ -109,6 +109,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
 
   const list = Object.values(props.fields)
     .filter((element) => element)
+    .filter((element: Fields) => !element.Styles?.includes('button-nav-item'))
     .map((element: Fields, key: number) => (
       <NavigationList
         key={`${key}${element.Id}`}

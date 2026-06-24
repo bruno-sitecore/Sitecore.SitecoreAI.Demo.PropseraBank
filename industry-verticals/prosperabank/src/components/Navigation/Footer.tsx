@@ -8,6 +8,7 @@ import {
   RichTextField,
   RichText,
   NextImage,
+  useSitecore,
 } from '@sitecore-content-sdk/nextjs';
 
 interface Fields {
@@ -37,6 +38,30 @@ export type FooterProps = {
   fields: Fields;
 };
 
+const FooterSocialLinks = ({ fields }: { fields: Fields }): JSX.Element | null => {
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const socialLinks = [
+    { link: fields?.SocialLink1, icon: fields?.SocialIcon1 },
+    { link: fields?.SocialLink2, icon: fields?.SocialIcon2 },
+    { link: fields?.SocialLink3, icon: fields?.SocialIcon3 },
+  ].filter(({ link }) => isPageEditing || link?.value?.href);
+
+  if (!socialLinks.length) {
+    return null;
+  }
+
+  return (
+    <div className="footer-socials">
+      {socialLinks.map(({ link, icon }, index) => (
+        <Link key={index} field={link}>
+          <NextImage field={icon} width={20} height={20} />
+        </Link>
+      ))}
+    </div>
+  );
+};
+
 export const Default = (props: FooterProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const sxaStyles = `${props.params?.styles || ''}`;
@@ -44,25 +69,28 @@ export const Default = (props: FooterProps): JSX.Element => {
   return (
     <div className={`component component-spaced footer ${sxaStyles}`} id={id ? id : undefined}>
       <div className="container">
-        <div className="content">
-          <div className="logo">
-            <NextImage
-              field={props.fields?.Image1}
-              width={200}
-              height={200}
-              className="img-fluid"
-            />
-          </div>
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-xl-4 row-gap-5 gx-5">
-            <div className="col">
+        <div className="footer-main">
+          <div className="row footer-columns g-4 g-xl-5">
+            <div className="col-12 col-sm-6 col-lg-3 footer-logo-col">
+              <NextImage
+                field={props.fields?.Image1}
+                width={200}
+                height={60}
+                className="footer-logo img-fluid"
+              />
+            </div>
+            <div className="col-12 col-sm-6 col-lg-3 footer-column">
               <div className="title">
                 <Text field={props.fields?.Title1} />
               </div>
               <div className="links">
                 <RichText field={props.fields?.Text1} />
               </div>
+              <div className="footer-utility">
+                <RichText field={props.fields?.Text4} />
+              </div>
             </div>
-            <div className="col">
+            <div className="col-12 col-sm-6 col-lg-3 footer-column">
               <div className="title">
                 <Text field={props.fields?.Title2} />
               </div>
@@ -70,30 +98,26 @@ export const Default = (props: FooterProps): JSX.Element => {
                 <RichText field={props.fields?.Text2} />
               </div>
             </div>
-            <div className="col">
+            <div className="col-12 col-sm-6 col-lg-3 footer-column footer-promo">
               <div className="title">
                 <Text field={props.fields?.Title3} />
               </div>
-              <div className="links">
+              <div className="links footer-promo-content">
                 <RichText field={props.fields?.Text3} />
-              </div>
-            </div>
-            <div className="col">
-              <div className="title">
-                <Text field={props.fields?.Title4} />
-              </div>
-              <div className="links">
-                <RichText field={props.fields?.Text4} />
               </div>
             </div>
           </div>
         </div>
-        <hr />
+
+        <FooterSocialLinks fields={props.fields} />
+
         <div className="footnote">
-          <Text field={props.fields?.Copyright} />
-          <div className="privacy-links">
+          <div className="legal-links">
             <Link field={props.fields?.Link1} />
             <Link field={props.fields?.Link2} />
+          </div>
+          <div className="copyright">
+            <Text field={props.fields?.Copyright} />
           </div>
         </div>
       </div>
@@ -111,56 +135,55 @@ export const WithSocials = (props: FooterProps): JSX.Element => {
       id={id ? id : undefined}
     >
       <div className="container">
-        <div className="content">
-          <div className="logo">
-            <NextImage
-              field={props.fields?.Image1}
-              width={200}
-              height={200}
-              className="img-fluid"
-            />
-          </div>
-          <div className="row row-cols-1 row-cols-md-3 row-gap-5 gx-5">
-            <div className="col">
-              <div className="title eyebrow-accent">
+        <div className="footer-main">
+          <div className="row footer-columns g-4 g-xl-5">
+            <div className="col-12 col-sm-6 col-lg-3 footer-logo-col">
+              <NextImage
+                field={props.fields?.Image1}
+                width={200}
+                height={60}
+                className="footer-logo img-fluid"
+              />
+            </div>
+            <div className="col-12 col-sm-6 col-lg-3 footer-column">
+              <div className="title">
                 <Text field={props.fields?.Title1} />
               </div>
               <div className="links">
                 <RichText field={props.fields?.Text1} />
               </div>
+              <div className="footer-utility">
+                <RichText field={props.fields?.Text4} />
+              </div>
             </div>
-            <div className="col">
-              <div className="title eyebrow-accent">
+            <div className="col-12 col-sm-6 col-lg-3 footer-column">
+              <div className="title">
                 <Text field={props.fields?.Title2} />
               </div>
               <div className="links">
                 <RichText field={props.fields?.Text2} />
               </div>
             </div>
-            <div className="col">
-              <div className="title eyebrow-accent">
+            <div className="col-12 col-sm-6 col-lg-3 footer-column footer-promo">
+              <div className="title">
                 <Text field={props.fields?.SocialsTitle} />
               </div>
-              <div className="links links-socials">
-                <Link field={props.fields?.SocialLink1}>
-                  <NextImage field={props.fields?.SocialIcon1} width={16} height={16} />
-                </Link>
-                <Link field={props.fields?.SocialLink2}>
-                  <NextImage field={props.fields?.SocialIcon2} width={16} height={16} />
-                </Link>
-                <Link field={props.fields?.SocialLink3}>
-                  <NextImage field={props.fields?.SocialIcon3} width={16} height={16} />
-                </Link>
+              <div className="links footer-promo-content">
+                <RichText field={props.fields?.Text3} />
               </div>
             </div>
           </div>
         </div>
-        <hr />
+
+        <FooterSocialLinks fields={props.fields} />
+
         <div className="footnote">
-          <Text field={props.fields?.Copyright} />
-          <div className="privacy-links">
+          <div className="legal-links">
             <Link field={props.fields?.Link1} />
             <Link field={props.fields?.Link2} />
+          </div>
+          <div className="copyright">
+            <Text field={props.fields?.Copyright} />
           </div>
         </div>
       </div>

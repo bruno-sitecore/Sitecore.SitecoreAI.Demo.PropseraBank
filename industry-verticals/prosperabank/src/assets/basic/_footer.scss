@@ -2,21 +2,23 @@
 @import 'variables';
 
 footer {
-  background-color: var(--bg-footer);
-  color: var(--text-footer);
+  background-color: #0f171c;
+  color: #fff;
 
   @include respond-to(mobile-large) {
-    padding: 0 $size-padding;
+    padding: 0;
   }
 
   a {
-    color: var(--text-footer);
+    color: rgb(255 255 255 / 85%);
     text-decoration: none;
     opacity: 1;
-    transition: all 0.3s;
+    transition: color 0.2s ease;
 
     &:hover {
-      opacity: 0.8;
+      color: #fff;
+      text-decoration: underline;
+      opacity: 1;
     }
   }
 }

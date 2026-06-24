@@ -1,8 +1,14 @@
 @import 'src/assets/sass/abstracts/vars';
 
 .eyebrow {
-  color: var(--text-footer);
-  background-color: var(--bg-footer);
+  // Analog Devices Primary 700 — top utility bar on analog.com
+  --bg-eyebrow: #00325c;
+  --text-eyebrow: #fff;
+  --bg-footer: var(--bg-eyebrow);
+  --text-footer: var(--text-eyebrow);
+
+  color: var(--text-eyebrow);
+  background-color: var(--bg-eyebrow);
   width: 100%;
   transition: 0.4s;
 
@@ -19,5 +25,5 @@
 }
 
 .site-services .eyebrow .container {
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid rgb(255 255 255 / 15%);
 }

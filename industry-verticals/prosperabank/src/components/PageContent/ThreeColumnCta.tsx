@@ -52,7 +52,7 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
     const [isVisible, domRef] = useVisibility(delay);
     const buttonStyle = props.params?.ButtonStyle
       ? `button-${props.params.ButtonStyle.toLowerCase()}`
-      : 'button-main';
+      : 'button-cta-outline';
 
     return (
       <div
@@ -62,16 +62,20 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
         ref={domRef}
       >
         <div className="content-wrapper">
-          <NextImage field={image} width={400} height={400} />
-          <h2>
-            <Text field={text} />
-          </h2>
-          <p>
-            <Text field={subText} />
-          </p>
-          {(isPageEditing || link?.value?.href) && (
-            <Link field={link} className={`button ${buttonStyle}`} />
-          )}
+          <div className="cta-card-image">
+            <NextImage field={image} width={480} height={320} />
+          </div>
+          <div className="cta-card-content">
+            <h2>
+              <Text field={text} />
+            </h2>
+            <p>
+              <Text field={subText} />
+            </p>
+            {(isPageEditing || link?.value?.href) && (
+              <Link field={link} className={`button ${buttonStyle}`} />
+            )}
+          </div>
         </div>
       </div>
     );
@@ -83,7 +87,7 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
       id={id ? id : undefined}
     >
       <div className="container">
-        <div className="row">
+        <div className="row g-4">
           <Column
             image={props.fields.Image1}
             text={props.fields.Text1}

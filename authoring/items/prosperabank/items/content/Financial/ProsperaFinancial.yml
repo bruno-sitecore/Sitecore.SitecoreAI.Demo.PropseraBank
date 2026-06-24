@@ -32,10 +32,13 @@ SharedFields:
   Value: "{EEE2C54E-1BC8-4B72-BB26-1EA80C093A30}"
 - ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
   Hint: Name
-  Value: ProsperaFinancial
+  Value: Analog Devices
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: "<image mediaid='936f491c-ac7e-4bdf-86a4-2aa85f0b1425' />"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "642289e7-746c-48e0-a49e-f436c9f1fb66"
+  Value: "34417e92-4180-44c7-8ed2-944cb702a38f"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{A0EECF65-09AD-4A10-AE46-7DF70106CFE6}"
@@ -60,11 +63,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88811af1-78da-4165-9f91-023aa7867c3b"
+      Value: "e9e2f2f2-112c-44cb-85fb-f534d7035a02"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\zach.escabedo@sitecore.com
+        sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251031T181204Z
+      Value: 20260624T154551Z

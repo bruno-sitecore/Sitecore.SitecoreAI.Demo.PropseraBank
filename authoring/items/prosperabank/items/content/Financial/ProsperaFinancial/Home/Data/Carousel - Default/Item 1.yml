@@ -6,15 +6,17 @@ Path: "/sitecore/content/Financial/ProsperaFinancial/Home/Data/Carousel - Defaul
 SharedFields:
 - ID: "afea6373-024f-4b89-a68b-83115e3701d8"
   Hint: Video
-  Value: |
-    <image mediaid="{E661F006-5B4B-4D94-BF9C-7BC513180F1F}" />
+  Value: 
 - ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
   Hint: Image
   Value: |
-    <image mediaid="{49985546-7AFE-45F5-902B-A49779EFFA07}" alt="Default video thumbnail" height="" width="" hspace="" vspace="" />
+    <image mediaid="{BAA94A9E-6618-422C-ABD1-B35EF04CF6EA}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2f9ee3e0-af69-4340-a139-42d279cd3e54"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
-  Value: "{321B71A6-169C-4A12-905A-0BF5F5CCD7E3}"
+  Value: 
 Languages:
 - Language: en
   Versions:
@@ -39,7 +41,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bd6289e5-c1b3-447c-94d8-9f96ef7eee4b"
+      Value: "f7f6737f-6205-4d35-9447-46b473b2949d"
     - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
       Hint: Text
       Value: |
@@ -50,7 +52,7 @@ Languages:
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260624T172717Z
+      Value: 20260624T182618Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

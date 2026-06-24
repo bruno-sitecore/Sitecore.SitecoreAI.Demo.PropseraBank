@@ -8,7 +8,7 @@
 
 .three-column-cta:not(.with-icons) {
   --cta-card-border: #e0e0e0;
-  --cta-accent: #00325c;
+  --cta-accent: var(--bg-saturated);
   --cta-heading-color: #333;
   --cta-body-color: #666;
 
@@ -47,6 +47,7 @@
     flex-direction: column;
     align-items: stretch;
     padding: 1.25rem 1.5rem 1.5rem;
+    text-align: left;
   }
 
   h2 {
@@ -55,6 +56,7 @@
     font-weight: 700;
     line-height: 1.3;
     color: var(--cta-heading-color);
+    text-align: left;
   }
 
   p {
@@ -63,9 +65,10 @@
     line-height: 1.5;
     color: var(--cta-body-color);
     opacity: 1;
+    text-align: left;
   }
 
-  .button.button-cta-outline {
+  .button {
     display: block;
     width: 100%;
     margin-top: auto;
@@ -79,16 +82,19 @@
     line-height: 1.25;
     text-align: center;
     text-decoration: none;
+    text-transform: none;
     transition: background-color 0.2s ease;
 
-    &:hover {
-      background-color: rgb(0 50 92 / 6%);
+    a {
       color: var(--cta-accent);
+      text-decoration: none;
     }
-  }
 
-  .button {
-    margin-top: auto;
+    &:hover {
+      background-color: color-mix(in srgb, var(--cta-accent) 6%, #fff);
+      color: var(--cta-accent);
+      filter: none;
+    }
   }
 
   &.bordered {
@@ -105,6 +111,7 @@
     p {
       padding-left: 1rem;
       padding-right: 1rem;
+      text-align: left;
     }
 
     img {
@@ -131,6 +138,7 @@
     p {
       padding-left: 1rem;
       padding-right: 1rem;
+      text-align: left;
     }
 
     .dark & {
@@ -147,6 +155,11 @@
 }
 
 .three-column-cta.with-icons {
+  h2,
+  p {
+    text-align: left;
+  }
+
   .row {
     border: 1px solid var(--border-color);
     border-radius: var(--roundness);

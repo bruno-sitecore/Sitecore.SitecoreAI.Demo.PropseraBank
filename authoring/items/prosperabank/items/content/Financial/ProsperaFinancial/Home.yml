@@ -304,12 +304,32 @@ Languages:
                 name="ds" />
             </r>
             <r
-              uid="{D49A8931-F041-4988-9CC3-F2400E6422D0}"
-              p:after="r[@uid='{124106DE-FB02-4B43-A521-A309FC75A5BC}']"
-              s:ds="local:/Data/Promo CTA 1"
-              s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE7077939-8F32-4C4F-AAAD-A7C53F623CE0%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=30"
-              s:ph="headless-main" />
+              uid="{654C4B49-B268-4EA3-A123-7A2162FA9ECC}">
+              <p:d />
+            </r>
+            <r
+              uid="{36E87C5B-94DF-4C70-827E-E88DCCD07907}">
+              <p:d />
+            </r>
+            <r
+              uid="{B882746C-C313-4283-8F58-B9402BCF9C6A}">
+              <p:d />
+            </r>
+            <r
+              uid="{633506E7-54D0-4410-9051-72FB4C9FECB4}">
+              <p:d />
+            </r>
+            <r
+              uid="{1A516B9B-CC7B-49C9-A8EB-5BE281A98612}"
+              p:after="r[@uid='{D54D53B4-1AA4-4998-9BDF-EB934C32CFB6}']" />
+            <r
+              uid="{0ED2D2C2-E9EF-4E40-B040-6289CB174E03}">
+              <p:d />
+            </r>
+            <r
+              uid="{7EBE6F29-1C6F-4138-8BF9-287ACF0CD530}">
+              <p:d />
+            </r>
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -327,17 +347,17 @@ Languages:
         sitecore\kaitlyn.folsom@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "123b0017-ad98-4caf-84f0-43940bf4de6b"
+      Value: "fdd78ed8-4623-4bc0-821b-73b97b0e8b9b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\brandon.bruno@sitecore.com
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
       Value: "PLAY! Financial"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251030T165635Z
+      Value: 20260624T173256Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
